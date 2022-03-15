@@ -11,7 +11,7 @@ function calculate() {
     } else if (imc < 29.9) {
       text="Sobrepeso"
     } else if (imc > 30.0) {
-      text="Lucas"
+      text="Obesidade"
     }
     document.getElementById("text_area").innerText=text
   }
